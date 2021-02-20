@@ -1,0 +1,50 @@
+﻿  Graph.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xhash(113): error C2064: term does not evaluate to a function taking 1 arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xhash(112): note: while compiling class template member function 'size_t std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::operator ()(const _Kty &) const'
+          with
+          [
+              _Kty=Edge,
+              _Hasher=Edge,
+              _Keyeq=std::equal_to<Edge>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xhash(1125): note: see reference to function template instantiation 'size_t std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::operator ()(const _Kty &) const' being compiled
+          with
+          [
+              _Kty=Edge,
+              _Hasher=Edge,
+              _Keyeq=std::equal_to<Edge>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\unordered_map(29): note: see reference to class template instantiation 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>' being compiled
+          with
+          [
+              _Kty=Edge,
+              _Hasher=Edge,
+              _Keyeq=std::equal_to<Edge>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xhash(159): note: see reference to class template instantiation 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>' being compiled
+          with
+          [
+              _Kty=Edge,
+              _Ty=int,
+              _Hasher=Edge,
+              _Keyeq=std::equal_to<Edge>,
+              _Alloc=std::allocator<std::pair<const Edge,int>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\unordered_map(97): note: see reference to class template instantiation 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=Edge,
+              _Ty=int,
+              _Hasher=Edge,
+              _Keyeq=std::equal_to<Edge>,
+              _Alloc=std::allocator<std::pair<const Edge,int>>
+          ]
+  d:\cati\semestrul 2\grafe\lab3\lab3\graph.cpp(72): note: see reference to class template instantiation 'std::unordered_map<Edge,int,Edge,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+          with
+          [
+              _Kty=Edge,
+              _Ty=int
+          ]
+  main.cpp
+  Walk.cpp
+  Generating Code...
